@@ -1,0 +1,28 @@
+/* https://careers.endava.com/Design/styles/webfonts/ */
+@font-face{
+    font-family:robotobold;
+    src:url('/assets/styles/webfonts/roboto-bold-webfont.eot');
+    src:url('/assets/styles/webfonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/styles/webfonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('/assets/styles/webfonts/roboto-bold-webfont.woff') format('woff'),
+    url('/assets/styles/webfonts/roboto-bold-webfont.ttf') format('truetype')    
+}
+
+@font-face{
+    font-family:robotoregular;
+    src:url('/assets/styles/webfonts/Roboto-Condensed-Regular.woff2') format('woff2'),
+    url('/assets/styles/webfonts/Roboto-Condensed-Regular.woff') format('woff'),
+    url('/assets/styles/webfonts/roboto-Regular.ttf');
+    font-weight:400;font-style:normal
+}
+@font-face{
+    font-family:robotolight;
+    src:url('/assets/styles/webfonts/Roboto-Condensed-Light.woff2') format('woff2'),
+    url('/assets/styles/webfonts/Roboto-Condensed-Light.woff') format('woff'),
+    url('/assets/styles/webfonts/roboto-Light.ttf');
+    font-weight:400;font-style:normal
+}
+
+
+/* @font-face{font-family:roboto_condensedbold;src:url(webfonts/robotocondensed-bold-webfont.eot);src:url(webfonts/robotocondensed-bold-webfont.eot?#iefix) format('embedded-opentype'),url(webfonts/robotocondensed-bold-webfont.woff2) format('woff2'),url(webfonts/robotocondensed-bold-webfont.woff) format('woff'),url(webfonts/robotocondensed-bold-webfont.ttf) format('truetype'),url(webfonts/robotocondensed-bold-webfont.svg#roboto_condensedbold) format('svg');font-weight:700;font-style:normal}@font-face{font-family:robotolight;src:url(webfonts/roboto-light-webfont.eot);src:url(webfonts/roboto-light-webfont.eot?#iefix) format('embedded-opentype'),url(webfonts/roboto-light-webfont.woff2) format('woff2'),url(webfonts/roboto-light-webfont.woff) format('woff'),url(webfonts/roboto-light-webfont.ttf) format('truetype'),url(webfonts/roboto-light-webfont.svg#robotolight) format('svg');font-weight:400;font-style:normal}@font-face{font-family:robotomedium;src:url(webfonts/roboto-medium-webfont.eot);src:url(webfonts/roboto-medium-webfont.eot?#iefix) format('embedded-opentype'),url(webfonts/roboto-medium-webfont.woff2) format('woff2'),url(webfonts/roboto-medium-webfont.woff) format('woff'),url(webfonts/roboto-medium-webfont.ttf) format('truetype'),url(webfonts/roboto-medium-webfont.svg#robotomedium) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:robotolight_italic;src:url(webfonts/roboto-lightitalic-webfont.eot);src:url(webfonts/roboto-lightitalic-webfont.eot?#iefix) format('embedded-opentype'),url(webfonts/roboto-lightitalic-webfont.woff2) format('woff2'),url(webfonts/roboto-lightitalic-webfont.woff) format('woff'),url(webfonts/roboto-lightitalic-webfont.ttf) format('truetype'),url(webfonts/roboto-lightitalic-webfont.svg#robotolight_italic) format('svg');font-weight:400;font-style:normal}@font-face{font-family:fontendava;src:url(iconfonts/fontendava.eot?y6id76);src:url(iconfonts/fontendava.eot?y6id76#iefix) format('embedded-opentype'),url(iconfonts/fontendava.ttf?y6id76) format('truetype'),url(iconfonts/fontendava.woff?y6id76) format('woff'),url(iconfonts/fontendava.svg?y6id76#fontendava) format('svg');font-weight:400;font-style:normal}[class*=" fe_"],[class^=fe_]{font-family:fontendava!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale} */

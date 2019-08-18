@@ -15,6 +15,7 @@ class Navbar extends Component {
     };
     this.toggleCollapse = this.toggleCollapse.bind(this)
     this.listenScrollEvent = this.listenScrollEvent.bind(this)
+    this.closeCollapse = this.closeCollapse.bind(this)
   }
 
   // Evento para abrir menu en responsive
@@ -26,6 +27,7 @@ class Navbar extends Component {
   // Evento para capturar el scroll ( si supera los 200 modifica la clase del navbar)
   // =================================================
   listenScrollEvent(e) {
+
     if (window.scrollY > 200) {
       this.setState({ classNav: 'nav' })
     } else {
@@ -33,6 +35,11 @@ class Navbar extends Component {
     }
   }
 
+  closeCollapse() {
+    setTimeout(() => {
+      this.setState({ isOpen: false });
+    }, 501);
+  }
   // Agrega el evento al montarse el componente
   // =================================================
   componentDidMount() {
@@ -42,10 +49,19 @@ class Navbar extends Component {
   render() {
     return (
       <Router>
-        <br/><br/>
+        <br /><br />
         <MDBNavbar dark expand="md" fixed="top" className={this.state.classNav}>
-          <MDBNavbarBrand>
-            <img src="/assets/img/logo.png" alt="Logo" className="logo"/>
+          <MDBNavbarBrand onClick={this.closeCollapse}>
+            <Link
+              activeClass="active"
+              className="nav-link Ripple-parent"
+              to="homeSection"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              <img src="/assets/img/logo.png" alt="Logo" className="logo" />
+            </Link>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} >
             <MDBIcon icon="align-justify" />
@@ -61,6 +77,7 @@ class Navbar extends Component {
                   smooth={true}
                   offset={-200}
                   duration={500}
+                  onClick={this.closeCollapse}
                 >
                   Home
                 </Link>
@@ -74,6 +91,7 @@ class Navbar extends Component {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={this.closeCollapse}
                 >
                   Novedades
               </Link>
@@ -87,6 +105,7 @@ class Navbar extends Component {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={this.closeCollapse}
                 >
                   Autores
               </Link>
@@ -100,6 +119,7 @@ class Navbar extends Component {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={this.closeCollapse}
                 >
                   Instagram
               </Link>
@@ -113,9 +133,15 @@ class Navbar extends Component {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={this.closeCollapse}
                 >
                   Suscribirse
               </Link>
+              </MDBNavItem>
+              <MDBNavItem>
+                <span className="btnCarrito">
+                  Mi Carrito <i className="fas fa-shopping-basket"></i> 8
+                </span>
               </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>

@@ -710,7 +710,7 @@ module.exports = exports['default'];
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* =========================================================== */\n.nav {\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0.94);\n  background-color: rgba(255, 255, 255, 0.94);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.navbar.navbar-dark .navbar-nav .nav-item .nav-link {\n  color: #636363;\n}\n.navbar-dark:hover .navbar-nav:hover .nav-link:hover {\n  color: #6b66b5 !important;\n}\n.navbar.navbar-dark .navbar-toggler {\n  color: #636363 !important;\n  font-size: 28px;\n}\n\n.navHome { /* Clase para cuando se encuentra el scroll en el top */\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0);\n  background-color: rgba(255, 255, 255, 0);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.logo {\n  width: 180px;\n}\n/* ESTILOS DEL BANNER PRINCIPAL  */\n/* =========================================================== */\n.bannerHome {\n  margin-top: -140px;\n  box-shadow: none;\n}\n\n", ""]);
+exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* =========================================================== */\n.nav {\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0.94);\n  background-color: rgba(255, 255, 255, 0.94);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.navbar.navbar-dark .navbar-nav .nav-item .nav-link {\n  color: #636363;\n}\n.navbar-dark:hover .navbar-nav:hover .nav-link:hover {\n  color: #6b66b5 !important;\n}\n.navbar.navbar-dark .navbar-toggler {\n  color: #636363 !important;\n  font-size: 28px;\n}\n\n.navHome { /* Clase para cuando se encuentra el scroll en el top */\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0);\n  background-color: rgba(255, 255, 255, 0);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.logo {\n  width: 180px;\n}\n\n/* ESTILOS DEL BANNER PRINCIPAL  */\n/* =========================================================== */\n.bannerHome {\n  margin-top: -110px;\n  box-shadow: none;\n  text-align: left !important;\n}\n.jumbotronHome {\n  margin-top: 90px;\n  padding-right:100px;\n  padding-left:100px;\n  text-align: left !important;\n  max-height: 242px;\n}\n.imgHome {\n  width: 100%;\n  border-radius: 8px;\n  -webkit-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  -moz-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n}\n.titleHome {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:50px;\n  font-family: 'Abril Fatface', cursive;\n}\n.parrafoHome {\n  color:#3c3c3c !important;\n}\n.footerEnviosHome {\n    background-color: #ededed;\n    margin-top: -32px;\n    margin-bottom: 120px;\n    height: 50px;\n    padding: 10px;\n    padding-left: 40px;\n    font-size: 20px;\n}\n\n/* BOTON DE CARRITO  */\n/* ==================================================== */\n.btnCarrito {\n\t-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\t-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbox-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));\n\tbackground:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);\n\tbackground-color:#f24537;\n\t-moz-border-radius:26px;\n\t-webkit-border-radius:26px;\n\tborder-radius:26px;\n\tborder:1px solid #d02718;\n\tdisplay:inline-block;\n\tcursor:pointer;\n\tcolor:#ffffff;\n\tfont-family:Arial;\n\tfont-size:15px;\n\tfont-weight:bold;\n\tpadding:6px 24px;\n\ttext-decoration:none;\n\ttext-shadow:0px 1px 0px #810e05;\n}\n.btnCarrito:hover {\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));\n\tbackground:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);\n\tbackground-color:#c62d1f;\n}\n.btnCarrito:active {\n\tposition:relative;\n\ttop:1px;\n}\n", ""]);
 
 
 /***/ }),
@@ -724,7 +724,7 @@ exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* ============================
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    .nav, .navHome {\n        padding: 8px 16px !important;\n    }\n}\n\n", ""]);
+exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    .nav, .navHome {\n        padding: 8px 16px !important;\n    }\n\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n}\n\n", ""]);
 
 
 /***/ }),
@@ -47990,6 +47990,7 @@ function (_Component) {
     };
     _this.toggleCollapse = _this.toggleCollapse.bind(_assertThisInitialized(_this));
     _this.listenScrollEvent = _this.listenScrollEvent.bind(_assertThisInitialized(_this));
+    _this.closeCollapse = _this.closeCollapse.bind(_assertThisInitialized(_this));
     return _this;
   } // Evento para abrir menu en responsive
   // =================================================
@@ -48016,6 +48017,17 @@ function (_Component) {
           classNav: 'navHome'
         });
       }
+    }
+  }, {
+    key: "closeCollapse",
+    value: function closeCollapse() {
+      var _this2 = this;
+
+      setTimeout(function () {
+        _this2.setState({
+          isOpen: false
+        });
+      }, 501);
     } // Agrega el evento al montarse el componente
     // =================================================
 
@@ -48032,11 +48044,21 @@ function (_Component) {
         expand: "md",
         fixed: "top",
         className: this.state.classNav
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavbarBrand"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavbarBrand"], {
+        onClick: this.closeCollapse
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        activeClass: "active",
+        className: "nav-link Ripple-parent",
+        to: "homeSection",
+        spy: true,
+        smooth: true,
+        offset: -70,
+        duration: 500
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "/assets/img/logo.png",
         alt: "Logo",
         className: "logo"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavbarToggler"], {
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavbarToggler"], {
         onClick: this.toggleCollapse
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBIcon"], {
         icon: "align-justify"
@@ -48053,7 +48075,8 @@ function (_Component) {
         spy: true,
         smooth: true,
         offset: -200,
-        duration: 500
+        duration: 500,
+        onClick: this.closeCollapse
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
         activeClass: "active",
         className: "nav-link Ripple-parent",
@@ -48061,7 +48084,8 @@ function (_Component) {
         spy: true,
         smooth: true,
         offset: -70,
-        duration: 500
+        duration: 500,
+        onClick: this.closeCollapse
       }, "Novedades")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
         activeClass: "active",
         className: "nav-link Ripple-parent",
@@ -48069,7 +48093,8 @@ function (_Component) {
         spy: true,
         smooth: true,
         offset: -70,
-        duration: 500
+        duration: 500,
+        onClick: this.closeCollapse
       }, "Autores")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
         activeClass: "active",
         className: "nav-link Ripple-parent",
@@ -48077,7 +48102,8 @@ function (_Component) {
         spy: true,
         smooth: true,
         offset: -70,
-        duration: 500
+        duration: 500,
+        onClick: this.closeCollapse
       }, "Instagram")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
         activeClass: "active",
         className: "nav-link Ripple-parent",
@@ -48085,8 +48111,13 @@ function (_Component) {
         spy: true,
         smooth: true,
         offset: -70,
-        duration: 500
-      }, "Suscribirse"))))));
+        duration: 500,
+        onClick: this.closeCollapse
+      }, "Suscribirse")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "btnCarrito"
+      }, "Mi Carrito ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fas fa-shopping-basket"
+      }), " 8"))))));
     }
   }]);
 
@@ -48156,30 +48187,42 @@ __webpack_require__.r(__webpack_exports__);
 
 var HomeSection = function HomeSection() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBJumbotron"], {
-    style: {
-      padding: 0
-    },
     className: "bannerHome",
-    id: "homeSection"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    className: "text-white text-center py-5 px-4 my-5",
+    id: "homeSection",
     style: {
       backgroundImage: "url(http://jamones-simeon.com/wp-content/uploads/2016/02/jamones-ibericos-fondo-gris.jpeg)"
     }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    className: "py-5"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCardTitle"], {
-    className: "h1-responsive pt-3 m-5 font-bold"
-  }, "Create your beautiful website with MDBootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "mx-5 mb-5"
-  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBBtn"], {
-    outline: true,
-    color: "white",
-    className: "mb-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], {
+    className: "jumbotronHome"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "7"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
+    type: "lightSpeedIn"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "titleHome"
+  }, "Libro destacado"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "parrafoHome"
+  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ipsam sed omnis? Ut minus non, vero enim laudantium aliquam earum obcaecati cuan, sapiente, error numquam officia sint similique amet cum!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "btnCarrito"
+  }, "Comprar ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-shopping-basket"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "4"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
+    type: "bounceInLeft",
+    delay: "900ms"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/img/libro.jpeg",
+    className: "imgHome"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "1"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], {
+    className: "footerEnviosHome"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "parrafoHome"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBIcon"], {
-    icon: "clone",
-    className: "mr-2"
-  }), " View project")))));
+    icon: "truck"
+  }), "  -  Envios gratis a todo el pa\xEDs.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (HomeSection);
@@ -48230,7 +48273,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AutorsSection_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../AutorsSection/index */ "./src/components/Section/AutorsSection/index.jsx");
 /* harmony import */ var _InstagramSection_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../InstagramSection/index */ "./src/components/Section/InstagramSection/index.jsx");
 /* harmony import */ var _NewsSection_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../NewsSection/index */ "./src/components/Section/NewsSection/index.jsx");
-/* harmony import */ var _SubscribeSection_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../SubscribeSection/index */ "./src/components/Section/SubscribeSection/index.jsx");
+/* harmony import */ var _SubscribeSection_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../SubscribeSection/index */ "./src/components/Section/SubscribeSection/index.jsx");
 /* harmony import */ var _DummyText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../DummyText */ "./src/components/Section/DummyText.js");
 
  // Sección Principal. Se encuentra en el top de la web
@@ -48267,7 +48310,7 @@ function mainSection() {
     subtitle: _DummyText__WEBPACK_IMPORTED_MODULE_6__["default"],
     dark: true,
     id: "instagramSection"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SubscribeSection_index__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SubscribeSection_index__WEBPACK_IMPORTED_MODULE_5__["default"], {
     title: "Section N 3",
     subtitle: _DummyText__WEBPACK_IMPORTED_MODULE_6__["default"],
     dark: true,

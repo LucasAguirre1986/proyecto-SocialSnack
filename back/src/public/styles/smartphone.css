@@ -1,6 +1,6 @@
 @media screen and (max-device-width : 480px) {
-/*     
-    .newRequest {
-        position: relative;
-    } */
+    .nav, .navHome {
+        padding: 8px 16px !important;
+    }
 }
+

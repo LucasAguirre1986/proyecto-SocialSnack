@@ -1,68 +1,47 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-:root {
-  --off-white: #fafafa;
-}
+/* ESTILOS DEL NAV  */
+/* =========================================================== */
 .nav {
-  background-color: var(--off-white);
   position: sticky;
-  top: 0px;
-  width: 100%;
-  height: 80px;
   z-index: 1000;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  border-top: solid 5px rgba(255, 255, 255, 0.94);
+  background-color: rgba(255, 255, 255, 0.94);
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition: border 0.5s ease-out;
+  padding: 0px 100px;
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #636363;
+}
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+  color: #6b66b5 !important;
+}
+.navbar.navbar-dark .navbar-toggler {
+  color: #636363 !important;
+  font-size: 28px;
 }
 
-.nav-logo {
-  height: 60px;
-  width: 60px;
+.navHome { /* Clase para cuando se encuentra el scroll en el top */
+  position: sticky;
+  z-index: 1000;
+  box-shadow: none;
+  border-top: solid 5px rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition: border 0.5s ease-out;
+  padding: 0px 100px;
+}
+.logo {
+  width: 180px;
+}
+/* ESTILOS DEL BANNER PRINCIPAL  */
+/* =========================================================== */
+.bannerHome {
+  margin-top: -140px;
+  box-shadow: none;
 }
 
-.nav-logo:hover {
-  cursor: pointer;
-}
-
-.nav .nav-content {
-  max-width: 900px;
-  padding: 0rem 3rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-.nav-item {
-  display: inline;
-  margin-left: 2rem;
-  color: #333;
-}
-
-.nav-item:hover {
-  color: black;
-  cursor: pointer;
-}
-
-.section-dark {
-  background: #333;
-  color: white;
-}
-
-.section-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-}

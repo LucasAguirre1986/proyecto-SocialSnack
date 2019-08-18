@@ -3,7 +3,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: "bundle.js",
-    path: __dirname + '/../back/src/public'
+    path: __dirname + '/../back/src/public/bundle'
   },
   resolve: {
     extensions: ['.js', '.jsx']

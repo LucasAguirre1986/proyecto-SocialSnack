@@ -121,3 +121,34 @@
 	position:relative;
 	top:1px;
 }
+
+/* NOVEDADES ========================  */
+/* ==================================================== */
+.fondoPunteado {
+  background-image: url("/assets/img/cuadrado.png");
+  background-repeat: repeat-y;
+}
+.titleNews {
+  vertical-align: middle;
+  color:#3c3c3c !important;
+  margin-top:5px;
+  font-family: 'Abril Fatface', cursive;
+}
+.horizontal_dotted_line {
+  position: relative;
+}
+.horizontal_dotted_line span {
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+.horizontal_dotted_line:after {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-top: 1px solid black;
+}

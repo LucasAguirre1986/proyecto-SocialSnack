@@ -1,8 +1,10 @@
 @media screen and (max-device-width : 480px) {
     .nav, .navHome {
-        padding: 8px 16px !important;
+        padding: 0px 16px !important;
     }
-
+    .bannerHome {
+        margin-top: -118px;
+    }
     .jumbotronHome {
         margin-top: 35px;
         padding-right:0px;

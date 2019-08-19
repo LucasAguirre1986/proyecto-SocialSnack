@@ -724,7 +724,7 @@ exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* ============================
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    .nav, .navHome {\n        padding: 8px 16px !important;\n    }\n\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n}\n\n", ""]);
+exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    .nav, .navHome {\n        padding: 0px 16px !important;\n    }\n    .bannerHome {\n        margin-top: -118px;\n    }\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n}\n\n", ""]);
 
 
 /***/ }),
@@ -48113,7 +48113,7 @@ function (_Component) {
         offset: -70,
         duration: 500,
         onClick: this.closeCollapse
-      }, "Suscribirse")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Subscribirse")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "btnCarrito"
       }, "Mi Carrito ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "fas fa-shopping-basket"
@@ -48190,7 +48190,7 @@ var HomeSection = function HomeSection() {
     className: "bannerHome",
     id: "homeSection",
     style: {
-      backgroundImage: "url(http://jamones-simeon.com/wp-content/uploads/2016/02/jamones-ibericos-fondo-gris.jpeg)"
+      backgroundImage: "url(/assets/img/fondoJumbotron.png)"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], {
     className: "jumbotronHome"
@@ -48200,13 +48200,16 @@ var HomeSection = function HomeSection() {
     type: "lightSpeedIn"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "titleHome"
-  }, "Libro destacado"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Libro Destacado"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "parrafoHome"
-  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ipsam sed omnis? Ut minus non, vero enim laudantium aliquam earum obcaecati cuan, sapiente, error numquam officia sint similique amet cum!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ipsam sed omnis? Ut minus non, vero enim laudantium aliquam earum obcaecati cuan, sapiente, error numquam officia sint similique amet cum!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
+    type: "flipInY",
+    delay: "1500ms"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "btnCarrito"
   }, "Comprar ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-shopping-basket"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
     md: "4"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
     type: "bounceInLeft",

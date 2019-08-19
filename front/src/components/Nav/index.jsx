@@ -135,7 +135,7 @@ class Navbar extends Component {
                   duration={500}
                   onClick={this.closeCollapse}
                 >
-                  Suscribirse
+                  Subscribirse
               </Link>
               </MDBNavItem>
               <MDBNavItem>

@@ -23,5 +23,24 @@
     .fondoPunteado {
         display: none;
     }
+
+    .level0, .level-1, .level-2 {
+        display: none;
+    }
+    .level1 {
+        height: 310px;
+        width: 185px;
+        line-height: 180px;
+        border-radius: 15px;
+        left: 190px;
+        clip-path: inset(0px 80px 0px 0px);
+    }
+    .level2 {
+        height: 310px;
+        width: 185px;
+        line-height: 150px;
+        border-radius: 15px;
+        left: 0px;
+    }
 }
 

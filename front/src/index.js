@@ -12,6 +12,7 @@ import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import "../../back/src/public/styles/app.css";
 import "../../back/src/public/styles/smartphone.css";
+import "../../back/src/public/styles/Carousel.css";
 
 ReactDOM.render(
   <Provider store={store}>

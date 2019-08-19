@@ -1,6 +1,8 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBContainer, MDBIcon, MDBAnimation } from "mdbreact";
-import Carrusel from './Carrusel'
+import Carousel from './Carousel'
+var items = ['libro.jpeg', 'libro7.jpg', 'libro8.jpg', 'libro6.jpg', 'libro5.jpg', 'libro4.jpg',
+  'libro3.jpg', 'libro2.jpg', 'libro10.jpg', 'libro9.png']
 
 export default function Section() {
   return (
@@ -11,10 +13,10 @@ export default function Section() {
         </MDBCol>
         <MDBCol md="10" >
           <MDBAnimation type="lightSpeedIn" >
-            <div class="horizontal_dotted_line">
+            <div className="horizontal_dotted_line">
               <span><h1 className="titleNews">Novedades</h1></span>
             </div>
-            <Carrusel /> 
+            <Carousel items={items} active={0} />
             <br /><br />
           </MDBAnimation>
         </MDBCol>

@@ -64,6 +64,7 @@
   vertical-align: middle;
   color:#3c3c3c !important;
   margin-top:50px;
+  background-color: transparent;
   font-family: 'Abril Fatface', cursive;
 }
 .parrafoHome {
@@ -132,6 +133,7 @@
   vertical-align: middle;
   color:#3c3c3c !important;
   margin-top:5px;
+  background-color: transparent;
   font-family: 'Abril Fatface', cursive;
 }
 .horizontal_dotted_line {
@@ -139,9 +141,10 @@
 }
 .horizontal_dotted_line span {
   display: inline-block;
-  background: #fff;
   position: relative;
   z-index: 1;
+  background: #FFF;
+  z-index: -5;
 }
 .horizontal_dotted_line:after {
   content: '';

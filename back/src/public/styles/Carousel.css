@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+.margenTop {
+  margin-top: 80px;
+}
+#carousel {
+  height: 310px;
+  max-width: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.arrow {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  color: #228291;
+  line-height: 30px;
+  margin-top: 85px;
+  z-index: 1000;
+}
+.arrow-right {
+  right: 0;
+}
+.item {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  transition: height 1s, width 1s, left 1s, margin-top 1s, line-height 1s, background-color 1s;
+}
+.level-2 {
+  height: 310px;
+  width: 185px;
+  line-height: 180px;
+  border-radius: 15px;
+  left: 760px;
+  clip-path: inset(0px 50px 0px 0px);
+}
+.level-1 {
+  height: 310px;
+  width: 185px;
+  line-height: 180px;
+  left: 570px;
+  border-radius: 15px;
+}
+.level0 {
+  height: 310px;
+  width: 185px;
+  line-height: 180px;
+  border-radius: 15px;
+  left: 380px;
+}
+.level1 {
+  height: 310px;
+  width: 185px;
+  line-height: 180px;
+  border-radius: 15px;
+  left: 190px;
+}
+.level2 {
+  height: 310px;
+  width: 185px;
+  line-height: 180px;
+  border-radius: 15px;
+  left: 0px;
+}
+.left-enter {
+  opacity: 0;
+  left: -60px;
+  height: 200px;
+  width: 100px;
+  line-height: 180px;
+  margin-top: 40px;
+}
+.left-enter.left-enter-active {
+  opacity: 1;
+  left: 50px;
+  height: 200px;
+  width: 110px;
+  line-height: 200px;
+  margin-top: 25px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
+}
+
+.right-enter {
+  opacity: 0;
+  left: 860px;
+  height: 200px;
+  width: 110px;
+  margin-top: 40px;
+}
+.right-enter.right-enter-active {
+  left: 750px;
+  opacity: 1;
+  height: 200px;
+  margin-top: 25px;
+  line-height: 200px;
+  width: 110px;
+  clip-path: inset(0px 10px 0px 0px);
+  transition: left 1s, opacity 1s, clip-path 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
+}
+.right-leave {
+  left: 50px;
+  height: 200px;
+  opacity: 1;
+  margin-top: 25px;
+  line-height: 200px;
+  width: 110px;
+}
+.right-leave.right-leave-active {
+  left: -160px;
+  opacity: 0;
+  height: 200px;
+  width: 90px;
+  line-height: 200px;
+  margin-top: 40px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
+}
+.noselect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.imgCarrousel {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  vertical-align: baseline;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* === FICHA EFECT IMG + TEXT === */
+/* ========================================= */
+.containerFicha {
+  position: absolute;
+  height: 300px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img.hidden {
+  overflow: hidden;
+}
+.div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img .text {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  color: #000;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  bottom: -30px;
+}
+.div-img:hover .img {
+  transform: translate(0px, -80px);
+  -ms-transform: translate(0px, -80px);
+  -moz-transform: translate(0px, -80px);
+  -webkit-transform: translate(0px, -80px);
+  -o-transform: translate(0px, -80px);
+}
+.titleImg {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  color: #000;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+  bottom: 0px;
+  color:red;
+  font-style: italic;
+  font-weight: 450;
+}
+.nameImg {
+  position: absolute;
+  width: 80%;
+  text-align: left;
+  left: 0;
+  bottom: -26px;
+  font-size: 16px;
+  color: grey;
+  float: left;
+}
+.priceImg {
+  position: absolute;
+  text-align: right;
+  bottom: -26px;
+  font-size: 16px;
+  right: 0;
+  float: right;
+  font-size: 28px;
+  color: #555;
+}

@@ -9,7 +9,8 @@ export default class Carousel extends React.Component {
         this.state = {
             items: this.props.items,
             active: this.props.active,
-            direction: ''
+            direction: '',
+            width: window.innerWidth,
         }
         this.rightClick = this.moveRight.bind(this)
         this.leftClick = this.moveLeft.bind(this)
@@ -49,6 +50,9 @@ export default class Carousel extends React.Component {
     }
 
     render() {
+        const { width } = this.state;
+        const isMobile = width <= 500;
+        console.log(isMobile)
         return (
             <div id="carousel" className="noselect">
                 <div className="arrow arrow-left" onClick={this.leftClick}><i className="fi-arrow-left"></i></div>

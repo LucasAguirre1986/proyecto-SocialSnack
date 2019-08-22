@@ -13,7 +13,16 @@ export default class Item extends React.Component {
         const className = 'item level' + this.props.level
         return (
             <div className={className}>
-                <img src={`/assets/img/${this.props.id}`} className="imgCarrousel" />
+                <div className="containerFicha">
+                    <div className="div-img" >
+                        <img src={`/assets/img/${this.props.id}`} className="imgCarrousel img" />
+                        <div className="text">
+                            <span className="titleImg">Lorem ipsum</span>
+                            <span className="nameImg">Nombre Autor</span> <span className="priceImg">$344</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         )
     }

@@ -16,7 +16,8 @@ export default function Section() {
             <div className="horizontal_dotted_line">
               <span><h1 className="titleNews">Novedades</h1></span>
             </div>
-            <Carousel items={items} active={0} />
+            <br/>
+            <Carousel items={items} active={0} className="margenTop"/>
             <br /><br />
           </MDBAnimation>
         </MDBCol>

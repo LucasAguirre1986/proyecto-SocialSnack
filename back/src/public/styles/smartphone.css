@@ -1,4 +1,7 @@
 @media screen and (max-device-width : 480px) {
+    body {
+        overflow-x: hidden;
+    }
     .nav, .navHome {
         padding: 0px 16px !important;
     }

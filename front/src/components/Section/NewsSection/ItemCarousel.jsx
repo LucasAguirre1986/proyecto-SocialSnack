@@ -15,10 +15,10 @@ export default class Item extends React.Component {
             <div className={className}>
                 <div className="containerFicha">
                     <div className="div-img" >
-                        <img src={`/assets/img/${this.props.id}`} className="imgCarrousel img" />
+                        <img src={`/assets/img/${this.props.id.img}`} className="imgCarrousel img" />
                         <div className="text">
-                            <span className="titleImg">Lorem ipsum</span>
-                            <span className="nameImg">Nombre Autor</span> <span className="priceImg">$344</span>
+                            <span className="titleImg">{this.props.id.title}</span>
+                            <span className="nameImg">{this.props.id.name}</span> <span className="priceImg">${this.props.id.price}</span>
                         </div>
                     </div>
                 </div>

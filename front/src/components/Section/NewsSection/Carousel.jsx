@@ -50,12 +50,10 @@ export default class Carousel extends React.Component {
     }
 
     render() {
-        const { width } = this.state;
-        const isMobile = width <= 500;
-        console.log(isMobile)
+        
         return (
             <div id="carousel" className="noselect">
-                <div className="arrow arrow-left" onClick={this.leftClick}><i className="fi-arrow-left"></i></div>
+                <div className="arrow arrow-left" onClick={this.leftClick}><i className="far fa-arrow-alt-circle-left"></i></div>
 
                 <ReactCSSTransitionGroup
                     transitionName={this.state.direction}
@@ -64,7 +62,7 @@ export default class Carousel extends React.Component {
                     {this.generateItems()}
                 </ReactCSSTransitionGroup>
 
-                <div className="arrow arrow-right" onClick={this.rightClick}><i className="fi-arrow-right"></i></div>
+                <div className="arrow arrow-right" onClick={this.rightClick}><i className="fas fa-arrow-alt-circle-right"></i></div>
             </div>
         )
     }

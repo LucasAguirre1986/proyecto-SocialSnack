@@ -787,7 +787,7 @@ exports.push([module.i, ".margenTop {\n  margin-top: 80px;\n}\n#carousel {\n  he
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* =========================================================== */\n.nav {\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0.94);\n  background-color: rgba(255, 255, 255, 0.94);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.navbar.navbar-dark .navbar-nav .nav-item .nav-link {\n  color: #636363;\n}\n.navbar-dark:hover .navbar-nav:hover .nav-link:hover {\n  color: #6b66b5 !important;\n}\n.navbar.navbar-dark .navbar-toggler {\n  color: #636363 !important;\n  font-size: 28px;\n}\n\n.navHome { /* Clase para cuando se encuentra el scroll en el top */\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0);\n  background-color: rgba(255, 255, 255, 0);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.logo {\n  width: 180px;\n}\n\n/* ESTILOS DEL BANNER PRINCIPAL  */\n/* =========================================================== */\n.bannerHome {\n  margin-top: -110px;\n  box-shadow: none;\n  text-align: left !important;\n}\n.jumbotronHome {\n  margin-top: 90px;\n  padding-right:100px;\n  padding-left:100px;\n  text-align: left !important;\n  max-height: 242px;\n}\n.imgHome {\n  width: 100%;\n  border-radius: 8px;\n  -webkit-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  -moz-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n}\n.titleHome {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:50px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.parrafoHome {\n  color:#3c3c3c !important;\n}\n.footerEnviosHome {\n    background-color: #ededed;\n    margin-top: -32px;\n    margin-bottom: 120px;\n    height: 50px;\n    padding: 10px;\n    padding-left: 40px;\n    font-size: 20px;\n}\n\n/* BOTON DE CARRITO  */\n/* ==================================================== */\n.btnCarrito {\n\t-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\t-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbox-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));\n\tbackground:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);\n\tbackground-color:#f24537;\n\t-moz-border-radius:26px;\n\t-webkit-border-radius:26px;\n\tborder-radius:26px;\n\tborder:1px solid #d02718;\n\tdisplay:inline-block;\n\tcursor:pointer;\n\tcolor:#ffffff;\n\tfont-family:Arial;\n\tfont-size:15px;\n\tfont-weight:bold;\n\tpadding:6px 24px;\n\ttext-decoration:none;\n\ttext-shadow:0px 1px 0px #810e05;\n}\n.btnCarrito:hover {\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));\n\tbackground:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);\n\tbackground-color:#c62d1f;\n}\n.btnCarrito:active {\n\tposition:relative;\n\ttop:1px;\n}\n\n/* NOVEDADES ========================  */\n/* ==================================================== */\n.fondoPunteado {\n  background-image: url(\"/assets/img/cuadrado.png\");\n  background-repeat: repeat-y;\n}\n.titleNews {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:5px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.horizontal_dotted_line {\n  position: relative;\n}\n.horizontal_dotted_line span {\n  display: inline-block;\n  position: relative;\n  z-index: 1;\n  background: #FFF;\n  z-index: -5;\n}\n.horizontal_dotted_line:after {\n  content: '';\n  position: absolute;\n  bottom: 15px;\n  left: 0;\n  right: 0;\n  z-index: -1;\n  border-top: 1px solid black;\n}\n\n/* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n  margin-top:20px !important;\n}\n.cajaAutors {\n  position: relative;\n  margin-top:60px !important;\n}\n.imgAutors {\n  width: 370px;\n  height: 368px;\n  max-width: 100%;\n  margin-left: 120px;\n  border-radius: 50%;\n  position: relative;\n  z-index: -1;\n}\n.titleAutors {\n  position: absolute;\n  z-index: 1;\n  top: -106px;\n  margin-left: 20%;\n  font-size: 128px;\n  color:red;\n  font-family: 'Abril Fatface', cursive;\n}\n.cajafrase {\n  position: absolute;\n  z-index: 1;\n  bottom: 0;\n  right: 24%;\n  font-size:17px;\n  width: 40%;\n  padding: 17px;\n  background-color: white;\n  font-family: 'Muli', sans-serif;\n}\n.autor {\n  font-size: 23px;\n  font-weight: 1200;\n  font-family: 'Anton', sans-serif;\n}\n.fraseDer {\n  width: 50px;\n  float: right;\n}\n.fraseIzq {\n  width: 50px;\n  position: absolute;\n  top: -23px;\n  left: -18px;\n}", ""]);
+exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* =========================================================== */\n.nav {\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0.94);\n  background-color: rgba(255, 255, 255, 0.94);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.navbar.navbar-dark .navbar-nav .nav-item .nav-link {\n  color: #636363;\n}\n.navbar-dark:hover .navbar-nav:hover .nav-link:hover {\n  color: #6b66b5 !important;\n}\n.navbar.navbar-dark .navbar-toggler {\n  color: #636363 !important;\n  font-size: 28px;\n}\n\n.navHome { /* Clase para cuando se encuentra el scroll en el top */\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0);\n  background-color: rgba(255, 255, 255, 0);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.logo {\n  width: 180px;\n}\n\n/* ESTILOS DEL BANNER PRINCIPAL  */\n/* =========================================================== */\n.bannerHome {\n  margin-top: -110px;\n  box-shadow: none;\n  text-align: left !important;\n}\n.jumbotronHome {\n  margin-top: 90px;\n  padding-right:100px;\n  padding-left:100px;\n  text-align: left !important;\n  max-height: 242px;\n}\n.imgHome {\n  width: 100%;\n  border-radius: 8px;\n  -webkit-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  -moz-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n}\n.titleHome {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:50px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.parrafoHome {\n  color:#3c3c3c !important;\n}\n.footerEnviosHome {\n    background-color: #ededed;\n    margin-top: -32px;\n    margin-bottom: 120px;\n    height: 50px;\n    padding: 10px;\n    padding-left: 40px;\n    font-size: 20px;\n}\n\n/* BOTON DE CARRITO  */\n/* ==================================================== */\n.btnCarrito {\n\t-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\t-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbox-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));\n\tbackground:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);\n\tbackground-color:#f24537;\n\t-moz-border-radius:26px;\n\t-webkit-border-radius:26px;\n\tborder-radius:26px;\n\tborder:1px solid #d02718;\n\tdisplay:inline-block;\n\tcursor:pointer;\n\tcolor:#ffffff;\n\tfont-family:Arial;\n\tfont-size:15px;\n\tfont-weight:bold;\n\tpadding:6px 24px;\n\ttext-decoration:none;\n\ttext-shadow:0px 1px 0px #810e05;\n}\n.btnCarrito:hover {\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));\n\tbackground:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);\n\tbackground-color:#c62d1f;\n}\n.btnCarrito:active {\n\tposition:relative;\n\ttop:1px;\n}\n\n/* NOVEDADES ========================  */\n/* ==================================================== */\n.fondoPunteado {\n  background-image: url(\"/assets/img/cuadrado.png\");\n  background-repeat: repeat-y;\n}\n.titleNews {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:5px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.horizontal_dotted_line {\n  position: relative;\n}\n.horizontal_dotted_line span {\n  display: inline-block;\n  position: relative;\n  z-index: 1;\n  background: #FFF;\n  z-index: -5;\n}\n.horizontal_dotted_line:after {\n  content: '';\n  position: absolute;\n  bottom: 15px;\n  left: 0;\n  right: 0;\n  z-index: -1;\n  border-top: 1px solid black;\n}\n\n/* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n  margin-top:20px !important;\n}\n.cajaAutors {\n  position: relative;\n  margin-top:60px !important;\n}\n.imgAutors {\n  width: 370px;\n  height: 368px;\n  max-width: 100%;\n  margin-left: 120px;\n  border-radius: 50%;\n  position: relative;\n  z-index: -1;\n}\n.titleAutors {\n  position: absolute;\n  z-index: 1;\n  top: -106px;\n  margin-left: 20%;\n  font-size: 128px;\n  color:red;\n  font-family: 'Abril Fatface', cursive;\n}\n.cajafrase {\n  position: absolute;\n  z-index: 1;\n  bottom: 0;\n  right: 24%;\n  font-size:17px;\n  width: 40%;\n  padding: 17px;\n  background-color: white;\n  font-family: 'Muli', sans-serif;\n}\n.autor {\n  font-size: 23px;\n  font-weight: 1200;\n  font-family: 'Anton', sans-serif;\n}\n.fraseDer {\n  width: 50px;\n  float: right;\n}\n.fraseIzq {\n  width: 50px;\n  position: absolute;\n  top: -23px;\n  left: -18px;\n}\n\n/* INSTAGRAM ========================  */\n/* ==================================================== */\n.classInstagram1 {\n  background: white; \n  max-width: 110%;\n  height: 435px; \n  width: 10000px;\n  border-radius: 3px; \n  border: 1px solid #dbdbdb;\n  box-shadow: none; \n  display: block;\n  margin: 0px 0px 0px; \n  min-width: 326px; \n  padding: 0px;\n  margin-left: -5%;\n  margin-bottom: 12px; \n}\n.instagram{\n  position: relative;\n  z-index: 5;\n}\n.imgInstagram {\n  position: absolute;\n  z-index: 0;\n  width: 510px;\n  top:-32px;\n}\n.imgInstagramLogo {\n  position: relative;\n  z-index: 9;\n  /* width: 510px; */\n  \n}", ""]);
 
 
 /***/ }),
@@ -801,7 +801,7 @@ exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* ============================
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    body {\n        overflow-x: hidden;\n    }\n    .nav, .navHome {\n        padding: 0px 16px !important;\n    }\n    .bannerHome {\n        margin-top: -118px;\n    }\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n    .fondoPunteado {\n        display: none;\n    }\n\n    .level0, .level-1, .level-2 {\n        display: none;\n    }\n    .level1 {\n        height: 310px;\n        width: 185px;\n        line-height: 180px;\n        border-radius: 15px;\n        left: 190px;\n        clip-path: inset(0px 80px 0px 0px);\n    }\n    .level2 {\n        height: 310px;\n        width: 185px;\n        line-height: 150px;\n        border-radius: 15px;\n        left: 0px;\n    }\n    .navbarWhite {\n        background-color: #fffffff6 !important;\n        margin: 0 -15px !important;\n        font-size: 18px !important;\n\n    }\n    /* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n    margin-top:0px !important;\n  }\n  .cajaAutors {\n    position: relative;\n    margin-top:70px !important;\n  }\n  .imgAutors {\n    width: 310px;\n    height: auto;\n    max-width: 100%;\n    margin-left: 0px;\n    border-radius: 50%;\n    position: relative;\n    z-index: -1;\n    margin: 0 auto;\n  }\n  .titleAutors {\n    top: -75px;\n    margin-left: 0%;\n    font-size: 68px;\n  }\n  .cajafrase {\n    position: static;\n    font-size:17px;\n    width: 100%;\n  }\n  .autor {\n    font-size: 23px;\n  }\n   \n  .fraseIzq {\n    \n    position: static;\n    top: -23px;\n    left: -18px;\n  } \n}\n\n", ""]);
+exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    body {\n        overflow-x: hidden;\n    }\n    .nav, .navHome {\n        padding: 0px 16px !important;\n    }\n    .bannerHome {\n        margin-top: -118px;\n    }\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n    .fondoPunteado {\n        display: none;\n    }\n\n    .level0, .level-1, .level-2 {\n        display: none;\n    }\n    .level1 {\n        height: 310px;\n        width: 185px;\n        line-height: 180px;\n        border-radius: 15px;\n        left: 190px;\n        clip-path: inset(0px 80px 0px 0px);\n    }\n    .level2 {\n        height: 310px;\n        width: 185px;\n        line-height: 150px;\n        border-radius: 15px;\n        left: 0px;\n    }\n    .navbarWhite {\n        background-color: #fffffff6 !important;\n        margin: 0 -15px !important;\n        font-size: 18px !important;\n\n    }\n    /* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n    margin-top:0px !important;\n  }\n  .cajaAutors {\n    position: relative;\n    margin-top:70px !important;\n  }\n  .imgAutors {\n    width: 310px;\n    height: auto;\n    max-width: 100%;\n    margin-left: 0px;\n    border-radius: 50%;\n    position: relative;\n    z-index: -1;\n    margin: 0 auto;\n  }\n  .titleAutors {\n    top: -75px;\n    margin-left: 0%;\n    font-size: 68px;\n  }\n  .cajafrase {\n    position: static;\n    font-size:17px;\n    width: 100%;\n  }\n  .autor {\n    font-size: 23px;\n  }\n   \n  .fraseIzq {\n    \n    position: static;\n    top: -23px;\n    left: -18px;\n  } \n  /* INSTAGRAM ========================  */\n/* ==================================================== */\n.classInstagram1 {\n    max-width: 100%;\n    height: 385px;\n    margin-bottom: 12px; \n    width: 10000px;\n    margin-left: -5%;\n  }\n  .imgInstagram{\n      display: none;\n  }\n}\n\n", ""]);
 
 
 /***/ }),
@@ -49410,19 +49410,79 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Section; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function Section(_ref) {
-  var title = _ref.title,
-      subtitle = _ref.subtitle,
-      dark = _ref.dark,
-      id = _ref.id;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "section" + (dark ? " section-dark" : "")
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "section-content",
-    id: id
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Instagram: ", title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, subtitle)));
-}
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+var Section =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Section, _React$Component);
+
+  function Section(props) {
+    var _this;
+
+    _classCallCheck(this, Section);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Section).call(this, props));
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(Section, [{
+    key: "render",
+    value: function render() {
+      var listado = ['BgHCHsSjQLm', 'Bss7xVWHBWQ', 'Bv4SH-bHVwG'];
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "instagramSection"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "/assets/img/instagram.png",
+        alt: "",
+        className: "imgInstagramLogo"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "section-content instagram"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "/assets/img/puntos.jpg",
+        alt: "",
+        className: "imgInstagram"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, listado && listado.map(function (item, i) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+          md: "4",
+          key: i
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+          id: "instagram-embed-0",
+          "class": "instagram-media instagram-media-rendered classInstagram1",
+          src: "https://www.instagram.com/p/".concat(item, "/embed?utm_source=ig_embedembed/captioned/"),
+          scrolling: "no",
+          "data-instgrm-payload-id": "instagram-media-payload-1",
+          frameborder: "0"
+        }));
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+    }
+  }]);
+
+  return Section;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+
 
 /***/ }),
 
@@ -49466,9 +49526,6 @@ function mainSection() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AutorsSection_index__WEBPACK_IMPORTED_MODULE_2__["default"], {
     id: "autorsSection"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_InstagramSection_index__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "Section N 3",
-    subtitle: _DummyText__WEBPACK_IMPORTED_MODULE_6__["default"],
-    dark: true,
     id: "instagramSection"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SubscribeSection_index__WEBPACK_IMPORTED_MODULE_5__["default"], {
     title: "Section N 3",

@@ -14,12 +14,7 @@ export default function mainSection() {
       <Home id="homeSection" />
       <News id="newsSection" />
       <Autors id="autorsSection" />
-      <Instagram
-        title="Section N 3"
-        subtitle={dummyText}
-        dark={true}
-        id="instagramSection"
-      />
+      <Instagram id="instagramSection" />
       <Subscribe
         title="Section N 3"
         subtitle={dummyText}

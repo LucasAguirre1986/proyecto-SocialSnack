@@ -209,3 +209,37 @@
   top: -23px;
   left: -18px;
 }
+
+/* INSTAGRAM ========================  */
+/* ==================================================== */
+.classInstagram1 {
+  background: white; 
+  max-width: 110%;
+  height: 435px; 
+  width: 10000px;
+  border-radius: 3px; 
+  border: 1px solid #dbdbdb;
+  box-shadow: none; 
+  display: block;
+  margin: 0px 0px 0px; 
+  min-width: 326px; 
+  padding: 0px;
+  margin-left: -5%;
+  margin-bottom: 12px; 
+}
+.instagram{
+  position: relative;
+  z-index: 5;
+}
+.imgInstagram {
+  position: absolute;
+  z-index: 0;
+  width: 510px;
+  top:-32px;
+}
+.imgInstagramLogo {
+  position: relative;
+  z-index: 9;
+  /* width: 510px; */
+  
+}

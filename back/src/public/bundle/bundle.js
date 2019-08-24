@@ -787,7 +787,7 @@ exports.push([module.i, ".margenTop {\n  margin-top: 80px;\n}\n#carousel {\n  he
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* =========================================================== */\n.nav {\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0.94);\n  background-color: rgba(255, 255, 255, 0.94);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.navbar.navbar-dark .navbar-nav .nav-item .nav-link {\n  color: #636363;\n}\n.navbar-dark:hover .navbar-nav:hover .nav-link:hover {\n  color: #6b66b5 !important;\n}\n.navbar.navbar-dark .navbar-toggler {\n  color: #636363 !important;\n  font-size: 28px;\n}\n\n.navHome { /* Clase para cuando se encuentra el scroll en el top */\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0);\n  background-color: rgba(255, 255, 255, 0);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.logo {\n  width: 180px;\n}\n\n/* ESTILOS DEL BANNER PRINCIPAL  */\n/* =========================================================== */\n.bannerHome {\n  margin-top: -110px;\n  box-shadow: none;\n  text-align: left !important;\n}\n.jumbotronHome {\n  margin-top: 90px;\n  padding-right:100px;\n  padding-left:100px;\n  text-align: left !important;\n  max-height: 242px;\n}\n.imgHome {\n  width: 100%;\n  border-radius: 8px;\n  -webkit-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  -moz-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n}\n.titleHome {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:50px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.parrafoHome {\n  color:#3c3c3c !important;\n}\n.footerEnviosHome {\n    background-color: #ededed;\n    margin-top: -32px;\n    margin-bottom: 120px;\n    height: 50px;\n    padding: 10px;\n    padding-left: 40px;\n    font-size: 20px;\n}\n\n/* BOTON DE CARRITO  */\n/* ==================================================== */\n.btnCarrito {\n\t-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\t-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbox-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));\n\tbackground:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);\n\tbackground-color:#f24537;\n\t-moz-border-radius:26px;\n\t-webkit-border-radius:26px;\n\tborder-radius:26px;\n\tborder:1px solid #d02718;\n\tdisplay:inline-block;\n\tcursor:pointer;\n\tcolor:#ffffff;\n\tfont-family:Arial;\n\tfont-size:15px;\n\tfont-weight:bold;\n\tpadding:6px 24px;\n\ttext-decoration:none;\n\ttext-shadow:0px 1px 0px #810e05;\n}\n.btnCarrito:hover {\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));\n\tbackground:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);\n\tbackground-color:#c62d1f;\n}\n.btnCarrito:active {\n\tposition:relative;\n\ttop:1px;\n}\n\n/* NOVEDADES ========================  */\n/* ==================================================== */\n.fondoPunteado {\n  background-image: url(\"/assets/img/cuadrado.png\");\n  background-repeat: repeat-y;\n}\n.titleNews {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:5px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.horizontal_dotted_line {\n  position: relative;\n}\n.horizontal_dotted_line span {\n  display: inline-block;\n  position: relative;\n  z-index: 1;\n  background: #FFF;\n  z-index: -5;\n}\n.horizontal_dotted_line:after {\n  content: '';\n  position: absolute;\n  bottom: 15px;\n  left: 0;\n  right: 0;\n  z-index: -1;\n  border-top: 1px solid black;\n}\n\n/* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n  margin-top:20px !important;\n}\n.cajaAutors {\n  position: relative;\n  margin-top:60px !important;\n}\n.imgAutors {\n  width: 370px;\n  height: 368px;\n  max-width: 100%;\n  margin-left: 120px;\n  border-radius: 50%;\n  position: relative;\n  z-index: -1;\n}\n.titleAutors {\n  position: absolute;\n  z-index: 1;\n  top: -106px;\n  margin-left: 20%;\n  font-size: 128px;\n  color:red;\n  font-family: 'Abril Fatface', cursive;\n}\n.cajafrase {\n  position: absolute;\n  z-index: 1;\n  bottom: 0;\n  right: 24%;\n  font-size:17px;\n  width: 40%;\n  padding: 17px;\n  background-color: white;\n  font-family: 'Muli', sans-serif;\n}\n.autor {\n  font-size: 23px;\n  font-weight: 1200;\n  font-family: 'Anton', sans-serif;\n}\n.fraseDer {\n  width: 50px;\n  float: right;\n}\n.fraseIzq {\n  width: 50px;\n  position: absolute;\n  top: -23px;\n  left: -18px;\n}\n\n/* INSTAGRAM ========================  */\n/* ==================================================== */\n.classInstagram1 {\n  background: white; \n  max-width: 110%;\n  height: 435px; \n  width: 10000px;\n  border-radius: 3px; \n  border: 1px solid #dbdbdb;\n  box-shadow: none; \n  display: block;\n  margin: 0px 0px 0px; \n  min-width: 326px; \n  padding: 0px;\n  margin-left: -5%;\n  margin-bottom: 12px; \n}\n.instagram{\n  position: relative;\n  z-index: 5;\n}\n.imgInstagram {\n  position: absolute;\n  z-index: 0;\n  width: 510px;\n  top:-32px;\n}\n.imgInstagramLogo {\n  position: relative;\n  z-index: 9;\n  /* width: 510px; */\n  \n}", ""]);
+exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* =========================================================== */\n.nav {\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0.94);\n  background-color: rgba(255, 255, 255, 0.94);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.navbar.navbar-dark .navbar-nav .nav-item .nav-link {\n  color: #636363;\n}\n.navbar-dark:hover .navbar-nav:hover .nav-link:hover {\n  color: #6b66b5 !important;\n}\n.navbar.navbar-dark .navbar-toggler {\n  color: #636363 !important;\n  font-size: 28px;\n}\n\n.navHome { /* Clase para cuando se encuentra el scroll en el top */\n  position: sticky;\n  z-index: 1000;\n  box-shadow: none;\n  border-top: solid 5px rgba(255, 255, 255, 0);\n  background-color: rgba(255, 255, 255, 0);\n  transition-property: background-color, color;\n  transition-duration: 1s;\n  transition-timing-function: ease-out;\n  transition: border 0.5s ease-out;\n  padding: 0px 100px;\n}\n.logo {\n  width: 180px;\n}\n\n/* ESTILOS DEL BANNER PRINCIPAL  */\n/* =========================================================== */\n.bannerHome {\n  margin-top: -110px;\n  box-shadow: none;\n  text-align: left !important;\n}\n.jumbotronHome {\n  margin-top: 90px;\n  padding-right:100px;\n  padding-left:100px;\n  text-align: left !important;\n  max-height: 242px;\n}\n.imgHome {\n  width: 100%;\n  border-radius: 8px;\n  -webkit-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  -moz-box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n  box-shadow: -1px 14px 31px -3px rgba(0,0,0,0.75);\n}\n.titleHome {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:50px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.parrafoHome {\n  color:#3c3c3c !important;\n}\n.footerEnviosHome {\n    background-color: #ededed;\n    margin-top: -32px;\n    margin-bottom: 120px;\n    height: 50px;\n    padding: 10px;\n    padding-left: 40px;\n    font-size: 20px;\n}\n\n/* BOTON DE CARRITO  */\n/* ==================================================== */\n.btnCarrito {\n\t-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\t-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbox-shadow:inset 0px 1px 0px 0px #f5978e;\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));\n\tbackground:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);\n\tbackground:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);\n\tbackground-color:#f24537;\n\t-moz-border-radius:26px;\n\t-webkit-border-radius:26px;\n\tborder-radius:26px;\n\tborder:1px solid #d02718;\n\tdisplay:inline-block;\n\tcursor:pointer;\n\tcolor:#ffffff;\n\tfont-family:Arial;\n\tfont-size:15px;\n\tfont-weight:bold;\n\tpadding:6px 24px;\n\ttext-decoration:none;\n\ttext-shadow:0px 1px 0px #810e05;\n}\n.btnCarrito:hover {\n\tbackground:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));\n\tbackground:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);\n\tbackground:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);\n\tfilter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);\n\tbackground-color:#c62d1f;\n}\n.btnCarrito:active {\n\tposition:relative;\n\ttop:1px;\n}\n\n/* NOVEDADES ========================  */\n/* ==================================================== */\n.fondoPunteado {\n  background-image: url(\"/assets/img/cuadrado.png\");\n  background-repeat: repeat-y;\n}\n.titleNews {\n  vertical-align: middle;\n  color:#3c3c3c !important;\n  margin-top:5px;\n  background-color: transparent;\n  font-family: 'Abril Fatface', cursive;\n}\n.horizontal_dotted_line {\n  position: relative;\n}\n.horizontal_dotted_line span {\n  display: inline-block;\n  position: relative;\n  z-index: 1;\n  background: #FFF;\n  z-index: -5;\n}\n.horizontal_dotted_line:after {\n  content: '';\n  position: absolute;\n  bottom: 15px;\n  left: 0;\n  right: 0;\n  z-index: -1;\n  border-top: 1px solid black;\n}\n\n/* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n  margin-top:20px !important;\n}\n.cajaAutors {\n  position: relative;\n  margin-top:60px !important;\n}\n.imgAutors {\n  width: 370px;\n  height: 368px;\n  max-width: 100%;\n  margin-left: 120px;\n  border-radius: 50%;\n  position: relative;\n  z-index: -1;\n}\n.titleAutors {\n  position: absolute;\n  z-index: 1;\n  top: -106px;\n  margin-left: 20%;\n  font-size: 128px;\n  color:red;\n  font-family: 'Abril Fatface', cursive;\n}\n.cajafrase {\n  position: absolute;\n  z-index: 1;\n  bottom: 0;\n  right: 24%;\n  font-size:17px;\n  width: 40%;\n  padding: 17px;\n  background-color: white;\n  font-family: 'Muli', sans-serif;\n}\n.autor {\n  font-size: 23px;\n  font-weight: 1200;\n  font-family: 'Anton', sans-serif;\n}\n.fraseDer {\n  width: 50px;\n  float: right;\n}\n.fraseIzq {\n  width: 50px;\n  position: absolute;\n  top: -23px;\n  left: -18px;\n}\n\n/* INSTAGRAM ========================  */\n/* ==================================================== */\n.classInstagram1 {\n  background: white; \n  max-width: 110%;\n  height: 435px; \n  width: 10000px;\n  border-radius: 3px; \n  border: 1px solid #dbdbdb;\n  box-shadow: none; \n  display: block;\n  margin: 0px 0px 0px; \n  min-width: 326px; \n  padding: 0px;\n  margin-left: -5%;\n  margin-bottom: 12px; \n}\n.instagram{\n  position: relative;\n  z-index: 5;\n}\n.imgInstagram {\n  position: absolute;\n  z-index: 0;\n  width: 510px;\n  top:-32px;\n}\n.imgInstagramLogo {\n  position: relative;\n  z-index: 9;\n  /* width: 510px; */\n  \n}\n\n/* SUBSCRIBE ========================  */\n/* ==================================================== */\n.subscribe {\n  padding: 0 60px;\n}\n.ulInicial {\n  list-style:none;\n  text-align: left;\n  font-weight: 900;\n}\n.ulFinal {\n  list-style:none;\n  text-align: left;\n}\n.imgSubs {\n  width: 90px;\n  margin:0 auto;\n}\n.imgLogoSusc {\n  width: 154px;\n}\n.formSubs {\n  background-color: #3c3c3c;\n  padding: 40px 0 5px 20px;\n}\n.formSubs2 {\n  background-color: #3c3c3c;\n  padding: 10px 20px 10px 0px;\n  \n}\n.btnEnviar {\n  margin-right: 13px;\n  border-radius: 5px;\n}\n.tablaSubs {\n  position: relative;\n  z-index: 99;\n  top: 0\n}\n.imgTabla {\n  position: absolute;\n  right: 0;\n  top: -10px;\n  z-index: 9;\n  width: 180px;\n}\n/* FOOTER ========================  */\n/* ==================================================== */\n.logoSocial {\n  width: 100px;\n  margin-top: -10px;\n}\n.footerActual {\n  color:grey !important;\n  margin-bottom: 400px;\n}", ""]);
 
 
 /***/ }),
@@ -801,7 +801,7 @@ exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* ============================
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    body {\n        overflow-x: hidden;\n    }\n    .nav, .navHome {\n        padding: 0px 16px !important;\n    }\n    .bannerHome {\n        margin-top: -118px;\n    }\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n    .fondoPunteado {\n        display: none;\n    }\n\n    .level0, .level-1, .level-2 {\n        display: none;\n    }\n    .level1 {\n        height: 310px;\n        width: 185px;\n        line-height: 180px;\n        border-radius: 15px;\n        left: 190px;\n        clip-path: inset(0px 80px 0px 0px);\n    }\n    .level2 {\n        height: 310px;\n        width: 185px;\n        line-height: 150px;\n        border-radius: 15px;\n        left: 0px;\n    }\n    .navbarWhite {\n        background-color: #fffffff6 !important;\n        margin: 0 -15px !important;\n        font-size: 18px !important;\n\n    }\n    /* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n    margin-top:0px !important;\n  }\n  .cajaAutors {\n    position: relative;\n    margin-top:70px !important;\n  }\n  .imgAutors {\n    width: 310px;\n    height: auto;\n    max-width: 100%;\n    margin-left: 0px;\n    border-radius: 50%;\n    position: relative;\n    z-index: -1;\n    margin: 0 auto;\n  }\n  .titleAutors {\n    top: -75px;\n    margin-left: 0%;\n    font-size: 68px;\n  }\n  .cajafrase {\n    position: static;\n    font-size:17px;\n    width: 100%;\n  }\n  .autor {\n    font-size: 23px;\n  }\n   \n  .fraseIzq {\n    \n    position: static;\n    top: -23px;\n    left: -18px;\n  } \n  /* INSTAGRAM ========================  */\n/* ==================================================== */\n.classInstagram1 {\n    max-width: 100%;\n    height: 385px;\n    margin-bottom: 12px; \n    width: 10000px;\n    margin-left: -5%;\n  }\n  .imgInstagram{\n      display: none;\n  }\n}\n\n", ""]);
+exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    body {\n        overflow-x: hidden;\n    }\n    .nav, .navHome {\n        padding: 0px 16px !important;\n    }\n    .bannerHome {\n        margin-top: -118px;\n    }\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n    .fondoPunteado {\n        display: none;\n    }\n\n    .level0, .level-1, .level-2 {\n        display: none;\n    }\n    .level1 {\n        height: 310px;\n        width: 185px;\n        line-height: 180px;\n        border-radius: 15px;\n        left: 190px;\n        clip-path: inset(0px 80px 0px 0px);\n    }\n    .level2 {\n        height: 310px;\n        width: 185px;\n        line-height: 150px;\n        border-radius: 15px;\n        left: 0px;\n    }\n    .navbarWhite {\n        background-color: #fffffff6 !important;\n        margin: 0 -15px !important;\n        font-size: 18px !important;\n\n    }\n    /* AUTORES ========================  */\n/* ==================================================== */\n.autorsSection {\n    margin-top:0px !important;\n  }\n  .cajaAutors {\n    position: relative;\n    margin-top:70px !important;\n  }\n  .imgAutors {\n    width: 310px;\n    height: auto;\n    max-width: 100%;\n    margin-left: 0px;\n    border-radius: 50%;\n    position: relative;\n    z-index: -1;\n    margin: 0 auto;\n  }\n  .titleAutors {\n    top: -75px;\n    margin-left: 0%;\n    font-size: 68px;\n  }\n  .cajafrase {\n    position: static;\n    font-size:17px;\n    width: 100%;\n  }\n  .autor {\n    font-size: 23px;\n  }\n   \n  .fraseIzq {\n    \n    position: static;\n    top: -23px;\n    left: -18px;\n  } \n  /* INSTAGRAM ========================  */\n/* ==================================================== */\n.classInstagram1 {\n    max-width: 100%;\n    height: 385px;\n    margin-bottom: 12px; \n    width: 10000px;\n    margin-left: -5%;\n  }\n  .imgInstagram{\n      display: none;\n  }\n /* SUBSCRIBE ========================  */\n/* ==================================================== */\n.subscribe {\n    padding: 0 0px;\n  }\n  .imgTabla{\n      display: none;\n  }\n  .footerActual {\n    color:grey !important;\n    margin-bottom: 50px;\n  }\n}\n\n", ""]);
 
 
 /***/ }),
@@ -49041,6 +49041,45 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
+/***/ "./src/components/Footer/index.jsx":
+/*!*****************************************!*\
+  !*** ./src/components/Footer/index.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
+
+
+
+var FooterPage = function FooterPage() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBFooter"], {
+    className: "font-small pt-4 mt-4 footerActual"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], {
+    fluid: true,
+    className: "text-center text-md-left"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "3"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Condiciones de venta de productos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "3"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Politica de privacidad")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "4"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Todos los derechos reservados")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "2"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/img/logoSocial.png",
+    className: "logoSocial"
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (FooterPage);
+
+/***/ }),
+
 /***/ "./src/components/Main/Main.jsx":
 /*!**************************************!*\
   !*** ./src/components/Main/Main.jsx ***!
@@ -49057,6 +49096,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _Section_MainSection_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Section/MainSection/index */ "./src/components/Section/MainSection/index.jsx");
 /* harmony import */ var _Nav_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Nav/index */ "./src/components/Nav/index.jsx");
+/* harmony import */ var _Footer_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Footer/index */ "./src/components/Footer/index.jsx");
+
 
 
 
@@ -49068,15 +49109,9 @@ function MainContainer() {
     path: "/",
     component: _Section_MainSection_index__WEBPACK_IMPORTED_MODULE_3__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Redirect"], {
-    from: "/sorry",
+    from: "/error",
     to: "/"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    size: "4"
-  }, ".col-4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    size: "4"
-  }, ".col-4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    size: "4"
-  }, ".col-4")));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_index__WEBPACK_IMPORTED_MODULE_5__["default"], null));
 }
 
 /***/ }),
@@ -49201,7 +49236,7 @@ function (_Component) {
         offset: -70,
         duration: 500
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/assets/img/logo.png",
+        src: "/assets/img/logo3.png",
         alt: "Logo",
         className: "logo"
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavbarToggler"], {
@@ -49288,16 +49323,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
+function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
 
 
 function Section(_ref) {
-  var title = _ref.title,
-      subtitle = _ref.subtitle,
-      dark = _ref.dark,
-      id = _ref.id;
+  _objectDestructuringEmpty(_ref);
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "autorsSection"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
+    type: "fadeIn",
+    duration: "3000ms",
+    reveal: true
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "cajaAutors"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "titleAutors"
@@ -49317,22 +49356,8 @@ function Section(_ref) {
     className: "fraseDer",
     src: "assets/img/frase-der.png",
     alt: ""
-  }))));
+  })))));
 }
-
-/***/ }),
-
-/***/ "./src/components/Section/DummyText.js":
-/*!*********************************************!*\
-  !*** ./src/components/Section/DummyText.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var dummyText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. Massa sapien faucibus et molestie ac feugiat sed. Turpis egestas maecenas pharetra convallis posuere morbi leo. Duis at consectetur lorem donec massa sapien faucibus et molestie. Purus sit amet luctus venenatis lectus. Pellentesque nec nam aliquam sem et tortor consequat id porta. Sapien et ligula ullamcorper malesuada. Fringilla ut morbi tincidunt augue interdum velit euismod. Vitae turpis massa sed elementum tempus egestas sed. Netus et malesuada fames ac turpis egestas integer eget aliquet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.\n\nNisi est sit amet facilisis. Vitae congue eu consequat ac felis. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Nisl condimentum id venenatis a condimentum. Rutrum tellus pellentesque eu tincidunt tortor. Semper auctor neque vitae tempus quam. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Enim lobortis scelerisque fermentum dui faucibus. Volutpat ac tincidunt vitae semper quis lectus nulla at.\n\nPellentesque id nibh tortor id aliquet lectus proin. Blandit cursus risus at ultrices mi. Iaculis eu non diam phasellus vestibulum lorem. Et odio pellentesque diam volutpat commodo. Sodales ut etiam sit amet nisl purus in. Adipiscing elit ut aliquam purus sit. Bibendum enim facilisis gravida neque convallis a cras. Duis at consectetur lorem donec massa sapien faucibus et molestie. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Non odio euismod lacinia at quis risus sed vulputate odio. Vel turpis nunc eget lorem dolor sed viverra ipsum. A lacus vestibulum sed arcu.\n\nOdio aenean sed adipiscing diam. Volutpat ac tincidunt vitae semper quis lectus. Tristique magna sit amet purus. Euismod in pellentesque massa placerat duis. Tellus molestie nunc non blandit massa enim nec dui nunc. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Tempus quam pellentesque nec nam aliquam sem et tortor consequat. Ac felis donec et odio pellentesque diam volutpat commodo sed. Orci sagittis eu volutpat odio. Purus faucibus ornare suspendisse sed nisi lacus. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Habitant morbi tristique senectus et netus et. Porta non pulvinar neque laoreet suspendisse. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Tellus integer feugiat scelerisque varius. Pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada. Pharetra et ultrices neque ornare aenean euismod. Proin sagittis nisl rhoncus mattis rhoncus.\n\nNisi quis eleifend quam adipiscing vitae. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Non arcu risus quis varius quam quisque id diam. Pharetra magna ac placerat vestibulum. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Sed id semper risus in hendrerit gravida. Ultrices eros in cursus turpis massa. Non tellus orci ac auctor augue mauris augue. Arcu vitae elementum curabitur vitae nunc. Convallis a cras semper auctor neque vitae tempus quam. Varius quam quisque id diam vel.";
-/* harmony default export */ __webpack_exports__["default"] = (dummyText);
 
 /***/ }),
 
@@ -49457,7 +49482,11 @@ function (_React$Component) {
         src: "/assets/img/instagram.png",
         alt: "",
         className: "imgInstagramLogo"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
+        type: "fadeIn",
+        duration: "3000ms",
+        reveal: true
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "section-content instagram"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "/assets/img/puntos.jpg",
@@ -49469,13 +49498,13 @@ function (_React$Component) {
           key: i
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
           id: "instagram-embed-0",
-          "class": "instagram-media instagram-media-rendered classInstagram1",
+          className: "instagram-media instagram-media-rendered classInstagram1",
           src: "https://www.instagram.com/p/".concat(item, "/embed?utm_source=ig_embedembed/captioned/"),
           scrolling: "no",
           "data-instgrm-payload-id": "instagram-media-payload-1",
-          frameborder: "0"
+          frameBorder: "0"
         }));
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+      }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
     }
   }]);
 
@@ -49503,7 +49532,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _InstagramSection_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../InstagramSection/index */ "./src/components/Section/InstagramSection/index.jsx");
 /* harmony import */ var _NewsSection_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../NewsSection/index */ "./src/components/Section/NewsSection/index.jsx");
 /* harmony import */ var _SubscribeSection_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../SubscribeSection/index */ "./src/components/Section/SubscribeSection/index.jsx");
-/* harmony import */ var _DummyText__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../DummyText */ "./src/components/Section/DummyText.js");
 
  // Sección Principal. Se encuentra en el top de la web
 
@@ -49514,7 +49542,6 @@ __webpack_require__.r(__webpack_exports__);
  // Sección de Novedades
 
  // Sección de Novedades
-
 
 function mainSection() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -49528,9 +49555,6 @@ function mainSection() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_InstagramSection_index__WEBPACK_IMPORTED_MODULE_3__["default"], {
     id: "instagramSection"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SubscribeSection_index__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Section N 3",
-    subtitle: _DummyText__WEBPACK_IMPORTED_MODULE_6__["default"],
-    dark: true,
     id: "subscribeSection"
   }));
 }
@@ -49878,7 +49902,9 @@ function (_React$Component) {
           paddingLeft: 0
         } : {}
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
-        type: "lightSpeedIn"
+        type: "fadeIn",
+        duration: "3000ms",
+        reveal: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "horizontal_dotted_line"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -49973,22 +49999,64 @@ var items = [{
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Section; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
 
-function Section(_ref) {
-  var title = _ref.title,
-      subtitle = _ref.subtitle,
-      dark = _ref.dark,
-      id = _ref.id;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "section" + (dark ? " section-dark" : "")
+
+
+var Section = function Section() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], {
+    id: "subscribeSection"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
+    className: "subscribe"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "2",
+    xs: "6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/img/editorial2.png",
+    className: "imgSubs"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "2",
+    xs: "3"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "ulInicial"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 4"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "2",
+    xs: "3"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "ulFinal"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Link 4"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "6"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "section-content",
-    id: id
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Editorial: ", title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, subtitle)));
-}
+    className: ""
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: ""
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/img/cuadrado.png",
+    className: "imgTabla"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
+    className: "tablaSubs"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    xs: "6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/img/logoSusc.png",
+    alt: "",
+    className: "imgLogoSusc"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    xs: "3",
+    className: "formSubs"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    name: "search"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "submit",
+    value: "Enviar",
+    className: "btnCarrito btnEnviar"
+  }))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Section);
 
 /***/ }),
 

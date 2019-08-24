@@ -1,8 +1,9 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer } from "mdbreact";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Home from '../Section/MainSection/index'
 import Navbar from '../Nav/index'
+import Footer from '../Footer/index'
 
 export default function MainContainer() {
   return (
@@ -10,13 +11,9 @@ export default function MainContainer() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Redirect from="/sorry" to="/" />
+        <Redirect from="/error" to="/" />
       </Switch>
-      <MDBRow>
-        <MDBCol size="4">.col-4</MDBCol>
-        <MDBCol size="4">.col-4</MDBCol>
-        <MDBCol size="4">.col-4</MDBCol>
-      </MDBRow>
+      <Footer />
     </MDBContainer>
   )
 }

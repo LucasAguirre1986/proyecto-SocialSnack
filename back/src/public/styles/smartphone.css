@@ -102,5 +102,17 @@
   .imgInstagram{
       display: none;
   }
+ /* SUBSCRIBE ========================  */
+/* ==================================================== */
+.subscribe {
+    padding: 0 0px;
+  }
+  .imgTabla{
+      display: none;
+  }
+  .footerActual {
+    color:grey !important;
+    margin-bottom: 50px;
+  }
 }
 

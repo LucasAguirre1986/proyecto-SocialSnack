@@ -22,7 +22,7 @@ export default class Section extends React.Component {
             {/* fondo punteado Img */}
           </MDBCol>
           <MDBCol md="10" style={isMobile ? { paddingRight: 0, paddingLeft: 0 } : {}}>
-            <MDBAnimation type="lightSpeedIn" >
+            <MDBAnimation type="fadeIn" duration="3000ms" reveal>
               <div className="horizontal_dotted_line">
                 <span><h1 className="titleNews">Novedades</h1></span>
               </div>

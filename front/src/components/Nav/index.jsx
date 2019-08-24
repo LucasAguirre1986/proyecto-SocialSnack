@@ -60,7 +60,7 @@ class Navbar extends Component {
               smooth={true}
               offset={-70}
               duration={500}>
-              <img src="/assets/img/logo.png" alt="Logo" className="logo" />
+              <img src="/assets/img/logo3.png" alt="Logo" className="logo" />
             </Link>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} >

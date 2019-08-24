@@ -243,3 +243,60 @@
   /* width: 510px; */
   
 }
+
+/* SUBSCRIBE ========================  */
+/* ==================================================== */
+.subscribe {
+  padding: 0 60px;
+}
+.ulInicial {
+  list-style:none;
+  text-align: left;
+  font-weight: 900;
+}
+.ulFinal {
+  list-style:none;
+  text-align: left;
+}
+.imgSubs {
+  width: 90px;
+  margin:0 auto;
+}
+.imgLogoSusc {
+  width: 154px;
+}
+.formSubs {
+  background-color: #3c3c3c;
+  padding: 40px 0 5px 20px;
+}
+.formSubs2 {
+  background-color: #3c3c3c;
+  padding: 10px 20px 10px 0px;
+  
+}
+.btnEnviar {
+  margin-right: 13px;
+  border-radius: 5px;
+}
+.tablaSubs {
+  position: relative;
+  z-index: 99;
+  top: 0
+}
+.imgTabla {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  z-index: 9;
+  width: 180px;
+}
+/* FOOTER ========================  */
+/* ==================================================== */
+.logoSocial {
+  width: 100px;
+  margin-top: -10px;
+}
+.footerActual {
+  color:grey !important;
+  margin-bottom: 400px;
+}

@@ -6,7 +6,6 @@ import Instagram from '../InstagramSection/index' // Sección de Instagram
 import News from '../NewsSection/index' // Sección de Novedades
 import Subscribe from '../SubscribeSection/index' // Sección de Novedades
 
-import dummyText from "../DummyText";
 
 export default function mainSection() {
   return (
@@ -15,13 +14,7 @@ export default function mainSection() {
       <News id="newsSection" />
       <Autors id="autorsSection" />
       <Instagram id="instagramSection" />
-      <Subscribe
-        title="Section N 3"
-        subtitle={dummyText}
-        dark={true}
-        id="subscribeSection"
-      />
-
+      <Subscribe id="subscribeSection" />
     </div>
   );
 }

@@ -13,12 +13,7 @@ export default function mainSection() {
     <div className="App">
       <Home id="homeSection" />
       <News id="newsSection" />
-      <Autors
-        title="Section N 1"
-        subtitle={dummyText}
-        dark={true}
-        id="autorsSection"
-      />
+      <Autors id="autorsSection" />
       <Instagram
         title="Section N 3"
         subtitle={dummyText}

@@ -51,5 +51,44 @@
         font-size: 18px !important;
 
     }
+    /* AUTORES ========================  */
+/* ==================================================== */
+.autorsSection {
+    margin-top:0px !important;
+  }
+  .cajaAutors {
+    position: relative;
+    margin-top:70px !important;
+  }
+  .imgAutors {
+    width: 310px;
+    height: auto;
+    max-width: 100%;
+    margin-left: 0px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+  }
+  .titleAutors {
+    top: -75px;
+    margin-left: 0%;
+    font-size: 68px;
+  }
+  .cajafrase {
+    position: static;
+    font-size:17px;
+    width: 100%;
+  }
+  .autor {
+    font-size: 23px;
+  }
+   
+  .fraseIzq {
+    
+    position: static;
+    top: -23px;
+    left: -18px;
+  } 
 }
 

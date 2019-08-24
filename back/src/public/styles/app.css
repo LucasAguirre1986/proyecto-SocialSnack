@@ -155,3 +155,57 @@
   z-index: -1;
   border-top: 1px solid black;
 }
+
+/* AUTORES ========================  */
+/* ==================================================== */
+.autorsSection {
+  margin-top:20px !important;
+}
+.cajaAutors {
+  position: relative;
+  margin-top:60px !important;
+}
+.imgAutors {
+  width: 370px;
+  height: 368px;
+  max-width: 100%;
+  margin-left: 120px;
+  border-radius: 50%;
+  position: relative;
+  z-index: -1;
+}
+.titleAutors {
+  position: absolute;
+  z-index: 1;
+  top: -106px;
+  margin-left: 20%;
+  font-size: 128px;
+  color:red;
+  font-family: 'Abril Fatface', cursive;
+}
+.cajafrase {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 24%;
+  font-size:17px;
+  width: 40%;
+  padding: 17px;
+  background-color: white;
+  font-family: 'Muli', sans-serif;
+}
+.autor {
+  font-size: 23px;
+  font-weight: 1200;
+  font-family: 'Anton', sans-serif;
+}
+.fraseDer {
+  width: 50px;
+  float: right;
+}
+.fraseIzq {
+  width: 50px;
+  position: absolute;
+  top: -23px;
+  left: -18px;
+}

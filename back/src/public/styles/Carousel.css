@@ -256,7 +256,7 @@
 }
 
 .nameImgTouch {
-  width: 70%;
+  width: 65%;
   text-align: left;
   left: 0;
   font-size: 21px;
@@ -266,7 +266,6 @@
 .priceImgTouch {
   position: absolute;
   text-align: right;
-  margin-right: 15px;
   float: left;
   font-size: 28px;
   color: #555;
@@ -281,5 +280,10 @@
 }
 .carousel-indicators li {
     background-color: grey;
-    
+}
+.arrow{
+  background-color: transparent !important;
+}
+.arrowSize {
+  font-size: 38px;
 }

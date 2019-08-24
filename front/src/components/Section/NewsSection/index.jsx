@@ -1,10 +1,8 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBContainer, MDBIcon, MDBAnimation } from "mdbreact";
+import { MDBRow, MDBCol, MDBContainer, MDBAnimation } from "mdbreact";
 import Carousel from './Carousel';
 import TouchCarousel from './TouchCarousel';
-
-var items = ['libro.jpeg', 'libro7.jpg', 'libro8.jpg', 'libro6.jpg', 'libro5.jpg', 'libro4.jpg',
-  'libro3.jpg', 'libro2.jpg', 'libro10.jpg', 'libro9.png']
+import items from './seedItems'
 
 export default class Section extends React.Component {
   constructor(props) {
@@ -29,7 +27,7 @@ export default class Section extends React.Component {
                 <span><h1 className="titleNews">Novedades</h1></span>
               </div>
               {isMobile ?
-                <TouchCarousel items={items}/>
+                <TouchCarousel items={items} />
                 :
                 <>
                   <br />

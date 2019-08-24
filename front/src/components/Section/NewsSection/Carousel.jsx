@@ -53,7 +53,7 @@ export default class Carousel extends React.Component {
         
         return (
             <div id="carousel" className="noselect">
-                <div className="arrow arrow-left" onClick={this.leftClick}><i className="far fa-arrow-alt-circle-left"></i></div>
+                <div className="arrow arrow-left arrowSize" onClick={this.leftClick}><i className="fas fa-arrow-alt-circle-left"></i></div>
 
                 <ReactCSSTransitionGroup
                     transitionName={this.state.direction}
@@ -62,7 +62,7 @@ export default class Carousel extends React.Component {
                     {this.generateItems()}
                 </ReactCSSTransitionGroup>
 
-                <div className="arrow arrow-right" onClick={this.rightClick}><i className="fas fa-arrow-alt-circle-right"></i></div>
+                <div className="arrow arrow-right arrowSize" onClick={this.rightClick}><i className="fas fa-arrow-alt-circle-right"></i></div>
             </div>
         )
     }

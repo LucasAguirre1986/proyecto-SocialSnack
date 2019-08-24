@@ -45,5 +45,11 @@
         border-radius: 15px;
         left: 0px;
     }
+    .navbarWhite {
+        background-color: #fffffff6 !important;
+        margin: 0 -15px !important;
+        font-size: 18px !important;
+
+    }
 }
 

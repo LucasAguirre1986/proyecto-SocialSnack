@@ -22,7 +22,6 @@ export default class Item extends React.Component {
                         </div>
                     </div>
                 </div>
-
             </div>
         )
     }

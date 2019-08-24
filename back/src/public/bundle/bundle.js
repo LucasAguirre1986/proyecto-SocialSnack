@@ -773,7 +773,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../front/node_module
 // Imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lobster);", ""]);
 // Module
-exports.push([module.i, ".margenTop {\n  margin-top: 80px;\n}\n#carousel {\n  height: 310px;\n  max-width: 100%;\n  margin: auto;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n}\n.arrow {\n  position: absolute;\n  width: 30px;\n  height: 30px;\n  background-color: white;\n  text-align: center;\n  font-size: 25px;\n  border-radius: 50%;\n  cursor: pointer;\n  font-size: 20px;\n  color: #228291;\n  line-height: 30px;\n  margin-top: 85px;\n  z-index: 1000;\n}\n.arrow-right {\n  right: 0;\n}\n.item {\n  text-align: center;\n  color: white;\n  font-size: 40px;\n  position: absolute;\n  transition: height 1s, width 1s, left 1s, margin-top 1s, line-height 1s, background-color 1s;\n}\n.level-2 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 760px;\n  clip-path: inset(0px 50px 0px 0px);\n}\n.level-1 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  left: 570px;\n  border-radius: 15px;\n}\n.level0 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 380px;\n}\n.level1 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 190px;\n}\n.level2 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 0px;\n}\n.left-enter {\n  opacity: 0;\n  left: -60px;\n  height: 200px;\n  width: 100px;\n  line-height: 180px;\n  margin-top: 40px;\n}\n.left-enter.left-enter-active {\n  opacity: 1;\n  left: 50px;\n  height: 200px;\n  width: 110px;\n  line-height: 200px;\n  margin-top: 25px;\n  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;\n}\n\n.right-enter {\n  opacity: 0;\n  left: 860px;\n  height: 200px;\n  width: 110px;\n  margin-top: 40px;\n}\n.right-enter.right-enter-active {\n  left: 750px;\n  opacity: 1;\n  height: 200px;\n  margin-top: 25px;\n  line-height: 200px;\n  width: 110px;\n  clip-path: inset(0px 10px 0px 0px);\n  transition: left 1s, opacity 1s, clip-path 1s, height 1s, width 1s, margin-top 1s, line-height 1s;\n}\n.right-leave {\n  left: 50px;\n  height: 200px;\n  opacity: 1;\n  margin-top: 25px;\n  line-height: 200px;\n  width: 110px;\n}\n.right-leave.right-leave-active {\n  left: -160px;\n  opacity: 0;\n  height: 200px;\n  width: 90px;\n  line-height: 200px;\n  margin-top: 40px;\n  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;\n}\n.noselect {\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n.imgCarrousel {\n  width: 100%;\n  object-fit: cover;\n  height: 300px;\n  vertical-align: baseline;\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n/* === FICHA EFECT IMG + TEXT === */\n/* ========================================= */\n.containerFicha {\n  position: absolute;\n  height: 300px;\n}\n.div-img {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n.div-img.hidden {\n  overflow: hidden;\n}\n.div-img .img {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 100%;\n  transform: translate(0px, 0px);\n  -ms-transform: translate(0px, 0px);\n  -moz-transform: translate(0px, 0px);\n  -webkit-transform: translate(0px, 0px);\n  -o-transform: translate(0px, 0px);\n  -webkit-transition: all 500ms ease-in-out;\n  -moz-transition: all 500ms ease-in-out;\n  -ms-transition: all 500ms ease-in-out;\n  -o-transition: all 500ms ease-in-out;\n}\n.div-img .text {\n  position: absolute;\n  z-index: -1;\n  display: block;\n  color: #000;\n  font-size: 18px;\n  width: 100%;\n  text-align: center;\n  bottom: -30px;\n}\n.div-img:hover .img {\n  transform: translate(0px, -80px);\n  -ms-transform: translate(0px, -80px);\n  -moz-transform: translate(0px, -80px);\n  -webkit-transform: translate(0px, -80px);\n  -o-transform: translate(0px, -80px);\n}\n.titleImg {\n  position: absolute;\n  z-index: -1;\n  display: block;\n  color: #000;\n  font-size: 18px;\n  width: 100%;\n  text-align: left;\n  bottom: 0px;\n  color:red;\n  font-style: italic;\n  font-weight: 450;\n}\n.nameImg {\n  position: absolute;\n  width: 80%;\n  text-align: left;\n  left: 0;\n  bottom: -26px;\n  font-size: 16px;\n  color: grey;\n  float: left;\n}\n.priceImg {\n  position: absolute;\n  text-align: right;\n  bottom: -26px;\n  font-size: 16px;\n  right: 0;\n  float: right;\n  font-size: 28px;\n  color: #555;\n}", ""]);
+exports.push([module.i, ".margenTop {\n  margin-top: 80px;\n}\n#carousel {\n  height: 310px;\n  max-width: 100%;\n  margin: auto;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n}\n.arrow {\n  position: absolute;\n  width: 30px;\n  height: 30px;\n  background-color: white;\n  text-align: center;\n  font-size: 25px;\n  border-radius: 50%;\n  cursor: pointer;\n  font-size: 20px;\n  color: #228291;\n  line-height: 30px;\n  margin-top: 85px;\n  z-index: 1000;\n}\n.arrow-right {\n  right: 0;\n}\n.item {\n  text-align: center;\n  color: white;\n  font-size: 40px;\n  position: absolute;\n  transition: height 1s, width 1s, left 1s, margin-top 1s, line-height 1s, background-color 1s;\n}\n.level-2 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 760px;\n  clip-path: inset(0px 50px 0px 0px);\n}\n.level-1 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  left: 570px;\n  border-radius: 15px;\n}\n.level0 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 380px;\n}\n.level1 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 190px;\n}\n.level2 {\n  height: 310px;\n  width: 185px;\n  line-height: 180px;\n  border-radius: 15px;\n  left: 0px;\n}\n.left-enter {\n  opacity: 0;\n  left: -60px;\n  height: 200px;\n  width: 100px;\n  line-height: 180px;\n  margin-top: 40px;\n}\n.left-enter.left-enter-active {\n  opacity: 1;\n  left: 50px;\n  height: 200px;\n  width: 110px;\n  line-height: 200px;\n  margin-top: 25px;\n  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;\n}\n\n.right-enter {\n  opacity: 0;\n  left: 860px;\n  height: 200px;\n  width: 110px;\n  margin-top: 40px;\n}\n.right-enter.right-enter-active {\n  left: 750px;\n  opacity: 1;\n  height: 200px;\n  margin-top: 25px;\n  line-height: 200px;\n  width: 110px;\n  clip-path: inset(0px 10px 0px 0px);\n  transition: left 1s, opacity 1s, clip-path 1s, height 1s, width 1s, margin-top 1s, line-height 1s;\n}\n.right-leave {\n  left: 50px;\n  height: 200px;\n  opacity: 1;\n  margin-top: 25px;\n  line-height: 200px;\n  width: 110px;\n}\n.right-leave.right-leave-active {\n  left: -160px;\n  opacity: 0;\n  height: 200px;\n  width: 90px;\n  line-height: 200px;\n  margin-top: 40px;\n  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;\n}\n.noselect {\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n.imgCarrousel {\n  width: 100%;\n  object-fit: cover;\n  height: 300px;\n  vertical-align: baseline;\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n.imgCarrouselTouch {\n  width: 100%;\n  object-fit: contain;\n  height: 320px;\n  vertical-align: baseline;\n  border-radius: 8px;\n  cursor: pointer;\n  background-color: #478aff;\n  position:absolute; /*El div debe tener la propiedad position distinta de static*/\n  left:50%;\n  margin-left: -200px;\n}\n.cardTouch {\n  border:solid 3px #f5f5f5;\n  padding: 10px;\n  -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);\n  -moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);\n  box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);\n  border-radius: 8px;\n}\n.carousel-control-next-icon, .carousel-control-prev-icon{\n  width: 50px !important;\n  height: 50px !important;\n}\n/* === FICHA EFECT IMG + TEXT === */\n/* ========================================= */\n.containerFicha {\n  position: absolute;\n  height: 300px;\n}\n.div-img {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n.div-img.hidden {\n  overflow: hidden;\n}\n.div-img .img {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 100%;\n  transform: translate(0px, 0px);\n  -ms-transform: translate(0px, 0px);\n  -moz-transform: translate(0px, 0px);\n  -webkit-transform: translate(0px, 0px);\n  -o-transform: translate(0px, 0px);\n  -webkit-transition: all 500ms ease-in-out;\n  -moz-transition: all 500ms ease-in-out;\n  -ms-transition: all 500ms ease-in-out;\n  -o-transition: all 500ms ease-in-out;\n}\n.div-img .text {\n  position: absolute;\n  z-index: -1;\n  display: block;\n  color: #000;\n  font-size: 18px;\n  width: 100%;\n  text-align: center;\n  bottom: -30px;\n}\n.div-img:hover .img {\n  transform: translate(0px, -80px);\n  -ms-transform: translate(0px, -80px);\n  -moz-transform: translate(0px, -80px);\n  -webkit-transform: translate(0px, -80px);\n  -o-transform: translate(0px, -80px);\n}\n.titleImg {\n  position: absolute;\n  z-index: -1;\n  display: block;\n  color: #000;\n  font-size: 18px;\n  width: 100%;\n  text-align: left;\n  bottom: 0px;\n  color:red;\n  font-style: italic;\n  font-weight: 450;\n}\n.nameImg {\n  position: absolute;\n  width: 80%;\n  text-align: left;\n  left: 0;\n  bottom: -26px;\n  font-size: 16px;\n  color: grey;\n  float: left;\n}\n.priceImg {\n  position: absolute;\n  text-align: right;\n  bottom: -26px;\n  font-size: 16px;\n  right: 0;\n  float: right;\n  font-size: 28px;\n  color: #555;\n}\n\n.titleImgTouch {\n  color: #000;\n  font-size: 18px;\n  width: 100%;\n  text-align: left;\n  color:red;\n  font-style: italic;\n  font-weight: 450;\n  margin-top:-58px !important;\n}\n\n.nameImgTouch {\n  width: 70%;\n  text-align: left;\n  left: 0;\n  font-size: 21px;\n  color: grey;\n  float: left;\n}\n.priceImgTouch {\n  position: absolute;\n  text-align: right;\n  margin-right: 15px;\n  float: left;\n  font-size: 28px;\n  color: #555;\n}\n.navbar-collapse{\n  margin: 0 -22px;\n  padding: 0 10px 10px 10px;\n  margin: 0px;\n}\n.carousel-indicators {\n  bottom: -12px;\n}\n.carousel-indicators li {\n    background-color: grey;\n    \n}", ""]);
 
 
 /***/ }),
@@ -801,7 +801,7 @@ exports.push([module.i, "/* ESTILOS DEL NAV  */\n/* ============================
 
 exports = module.exports = __webpack_require__(/*! ../../../../front/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    body {\n        overflow-x: hidden;\n    }\n    .nav, .navHome {\n        padding: 0px 16px !important;\n    }\n    .bannerHome {\n        margin-top: -118px;\n    }\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n    .fondoPunteado {\n        display: none;\n    }\n\n    .level0, .level-1, .level-2 {\n        display: none;\n    }\n    .level1 {\n        height: 310px;\n        width: 185px;\n        line-height: 180px;\n        border-radius: 15px;\n        left: 190px;\n        clip-path: inset(0px 80px 0px 0px);\n    }\n    .level2 {\n        height: 310px;\n        width: 185px;\n        line-height: 150px;\n        border-radius: 15px;\n        left: 0px;\n    }\n}\n\n", ""]);
+exports.push([module.i, "@media screen and (max-device-width : 480px) {\n    body {\n        overflow-x: hidden;\n    }\n    .nav, .navHome {\n        padding: 0px 16px !important;\n    }\n    .bannerHome {\n        margin-top: -118px;\n    }\n    .jumbotronHome {\n        margin-top: 35px;\n        padding-right:0px;\n        padding-left:0px;\n        max-height: 100%;\n    }\n    .titleHome {\n        font-size: 33px;\n    }\n    .footerEnviosHome {\n        padding: 13px;\n        padding-left: 20px;\n        font-size: 18px;\n        margin-bottom: 60px;\n    }\n    .fondoPunteado {\n        display: none;\n    }\n\n    .level0, .level-1, .level-2 {\n        display: none;\n    }\n    .level1 {\n        height: 310px;\n        width: 185px;\n        line-height: 180px;\n        border-radius: 15px;\n        left: 190px;\n        clip-path: inset(0px 80px 0px 0px);\n    }\n    .level2 {\n        height: 310px;\n        width: 185px;\n        line-height: 150px;\n        border-radius: 15px;\n        left: 0px;\n    }\n    .navbarWhite {\n        background-color: #fffffff6 !important;\n        margin: 0 -15px !important;\n        font-size: 18px !important;\n\n    }\n}\n\n", ""]);
 
 
 /***/ }),
@@ -39928,7 +39928,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49211,7 +49211,8 @@ function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCollapse"], {
         id: "navbarCollapse3",
         isOpen: this.state.isOpen,
-        navbar: true
+        navbar: true,
+        className: "navbarWhite"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavbarNav"], {
         right: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBNavItem"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Link"], {
@@ -49440,14 +49441,8 @@ function mainSection() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomeSection__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Section N 2",
-    subtitle: _DummyText__WEBPACK_IMPORTED_MODULE_6__["default"],
-    dark: false,
     id: "homeSection"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NewsSection_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: "Section 4",
-    subtitle: _DummyText__WEBPACK_IMPORTED_MODULE_6__["default"],
-    dark: false,
     id: "newsSection"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AutorsSection_index__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Section N 1",
@@ -49576,9 +49571,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      var width = this.state.width;
-      var isMobile = width <= 500;
-      console.log(isMobile);
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "carousel",
         className: "noselect"
@@ -49586,7 +49578,7 @@ function (_React$Component) {
         className: "arrow arrow-left",
         onClick: this.leftClick
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        className: "fi-arrow-left"
+        className: "far fa-arrow-alt-circle-left"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_1___default.a, {
         transitionName: this.state.direction,
         transitionEnterTimeout: 500,
@@ -49595,7 +49587,7 @@ function (_React$Component) {
         className: "arrow arrow-right",
         onClick: this.rightClick
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        className: "fi-arrow-right"
+        className: "fas fa-arrow-alt-circle-right"
       })));
     }
   }]);
@@ -49688,6 +49680,56 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./src/components/Section/NewsSection/TouchCarousel.jsx":
+/*!**************************************************************!*\
+  !*** ./src/components/Section/NewsSection/TouchCarousel.jsx ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
+
+
+
+var TouchCarousel = function TouchCarousel(_ref) {
+  var items = _ref.items;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCarousel"], {
+    activeItem: 1,
+    length: items.length,
+    showControls: true,
+    showIndicators: true,
+    interval: 10000,
+    className: "cardTouch"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCarouselInner"], null, items && items.map(function (item, i) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCarouselItem"], {
+      itemId: i + 1,
+      key: i
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBView"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCard"], {
+      style: {
+        width: "22rem"
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCardImage"], {
+      className: "imgCarrouselTouch",
+      src: "/assets/img/".concat(item),
+      waves: true
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "titleImgTouch"
+    }, "Lorem ipsum"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCardText"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "nameImgTouch"
+    }, "Nombre Autor"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "priceImgTouch"
+    }, "$344"))))));
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (TouchCarousel);
+
+/***/ }),
+
 /***/ "./src/components/Section/NewsSection/index.jsx":
 /*!******************************************************!*\
   !*** ./src/components/Section/NewsSection/index.jsx ***!
@@ -49702,31 +49744,85 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
 /* harmony import */ var _Carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Carousel */ "./src/components/Section/NewsSection/Carousel.jsx");
+/* harmony import */ var _TouchCarousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./TouchCarousel */ "./src/components/Section/NewsSection/TouchCarousel.jsx");
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
 
 
 
 var items = ['libro.jpeg', 'libro7.jpg', 'libro8.jpg', 'libro6.jpg', 'libro5.jpg', 'libro4.jpg', 'libro3.jpg', 'libro2.jpg', 'libro10.jpg', 'libro9.png'];
-function Section() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], {
-    className: "",
-    id: "newsSection"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    md: "2",
-    className: "fondoPunteado"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    md: "10"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
-    type: "lightSpeedIn"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "horizontal_dotted_line"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "titleNews"
-  }, "Novedades"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    items: items,
-    active: 0,
-    className: "margenTop"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)))));
-}
+
+var Section =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Section, _React$Component);
+
+  function Section(props) {
+    var _this;
+
+    _classCallCheck(this, Section);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Section).call(this, props));
+    _this.state = {
+      width: window.innerWidth
+    };
+    return _this;
+  }
+
+  _createClass(Section, [{
+    key: "render",
+    value: function render() {
+      var width = this.state.width;
+      var isMobile = width <= 500;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBContainer"], {
+        className: "",
+        id: "newsSection"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+        md: "2",
+        className: "fondoPunteado"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+        md: "10",
+        style: isMobile ? {
+          paddingRight: 0,
+          paddingLeft: 0
+        } : {}
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBAnimation"], {
+        type: "lightSpeedIn"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "horizontal_dotted_line"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "titleNews"
+      }, "Novedades"))), isMobile ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TouchCarousel__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        items: items
+      }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        items: items,
+        active: 0,
+        className: "margenTop"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)))));
+    }
+  }]);
+
+  return Section;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+
 
 /***/ }),
 

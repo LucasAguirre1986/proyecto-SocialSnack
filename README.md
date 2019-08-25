@@ -1,6 +1,6 @@
 # Test - Proyecto Técnico => Social Snack (Front end).
 ## Tecnologías utilizadas:
-### React, Nodejs, Express.
+React, Nodejs, Express.
 
 ## Ejecutar instalacion de paquetes de Node
 
@@ -16,5 +16,5 @@ El mismo estara disponible en el puerto 3000 `(http://localhost:3000)`
 
 Ejecutar el comando `npm run build` en el directorio del front, (/front) para correr webpack.
 
-##Autor:
-###@LucasAguirre1986
+## Autor
+### github.com/LucasAguirre1986
